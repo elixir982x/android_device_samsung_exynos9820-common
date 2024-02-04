@@ -357,3 +357,6 @@ PRODUCT_COPY_FILES += \
 
 ## aperture camera
 TARGET_BUILD_APERTURE_CAMERA := true
+
+# Broken rules
+BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
