@@ -1,5 +1,4 @@
-#
-# Copyright (C) 2021-2023 The aospOS Project
+# Copyright (C) 2021-2024 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -32,6 +31,7 @@ TARGET_2ND_CPU_VARIANT := generic
 
 ## Audio
 BOARD_LOW_LATENCY_CAPTURE_DURATION := 20
+BOARD_USE_QUAD_MIC := true
 
 ## Bluetooth
 BOARD_CUSTOM_BT_CONFIG := $(COMMON_PATH)/bluetooth/libbt_vndcfg.txt
